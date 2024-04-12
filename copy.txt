@@ -1,0 +1,17 @@
+<?php
+ob_start();
+session_start();
+$page_title="Amura Cpanel | manga  ";
+
+
+if (isset($_SESSION['adminID'])){
+    include "init.php";?>
+    
+   
+    <?php include $tpl."footer.php";
+}
+else{
+header('location:  index.php');
+exit();
+}
+ob_end_flush(); ?>

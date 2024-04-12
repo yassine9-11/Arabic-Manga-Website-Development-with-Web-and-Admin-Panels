@@ -1,0 +1,427 @@
+.container.ad_home {
+    flex-direction: column;
+    margin: auto;
+}
+
+.ad_home .stat {
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    border-radius: 11px;
+    font-size: 18px;
+}
+
+.ad_home .stat i {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.blocheader {
+    border: 1.5px solid #ff8736;
+}
+
+.blocheader h3 {
+    padding: 6px;
+    background-color: #ff8736;
+    color: #fff;
+}
+
+.blocheader .row {
+    padding: 0 17px;
+}
+
+.blocheader .comment img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-left: 15px;
+}
+
+.blocheader .comment .time__of_comment {
+    font-weight: 300;
+    font-size: 11px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.blocheader .comment .comment-text {
+    font-size: 12px;
+    font-family: normal;
+}
+
+.latestmanga img {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.blocheader .latestmanga {
+    margin: 0;
+    background: none;
+    padding: 6px 0;
+}
+
+.blocheader .row>div {
+    margin: 0;
+}
+
+.blocheader .time {
+    margin-right: 7px;
+    font-size: 13px;
+}
+
+.blocheader .chap {
+    margin: 4px 5px;
+    background: #c1ff00;
+    color: #444;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.email {
+    margin: 0 -5px;
+    color: red;
+    font-size: 15px;
+}
+
+.controls {
+    margin-right: 80px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 125px;
+}
+
+.controls a {
+    cursor: pointer;
+    margin: 0 2px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 6px 3px;
+}
+
+.comment .controls {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.user .controls {
+    margin-right: 23px;
+    margin-top: 0px;
+}
+
+.user .time__of_comment {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+
+/* header */
+
+.row.login.ad_home.m-auto {
+    background: #13405b;
+}
+
+.logo_desc {
+    text-align: center;
+    color: #fff;
+}
+
+.Logo {
+    font-weight: bold;
+    font-size: 35px;
+    color: #c1ff00;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+
+.ad_home ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+
+.ad_home ul a {
+    color: #fff;
+}
+
+.message .username {
+    min-width: 100px;
+}
+
+.message .time__of_comment {
+    font-weight: 300;
+    font-size: 11px;
+    margin-top: -5px;
+    min-width: 100px;
+}
+
+.message td {
+    padding: 6px 0;
+    border-bottom: 1px solid #aaaaaa5e;
+}
+
+.message thead {
+    background-color: #aaaaaa5e;
+}
+
+.ad_home .choiwtypemsg {
+    list-style: none;
+    display: flex;
+    justify-content: center
+}
+
+.choiwtypemsg li a {
+    color: #13405b;
+    margin-right: 15px;
+}
+
+.ad_home {
+    color: #13405b;
+}
+
+.choiwtypemsg li a.active {
+    color: #ff8736;
+}
+
+.add.btn-bloc {
+    background: #ff8736;
+    color: #fff;
+    padding: 6px;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.message.latestmanga.col-12\,
+{
+    background: #fff;
+}
+
+.blochead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.message td {
+    padding: 6px;
+    border-bottom: 1px solid #aaaaaa5e;
+    border-left: 1px solid #aaaaaa5e;
+}
+
+.reply {
+    color: #13405b;
+}
+
+.message .controls {
+    margin-right: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    min-width: 190px;
+}
+
+.addmanag td {
+    border-bottom: none;
+    text-align: right;
+}
+
+.addedmanga {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.addedmanga img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
+
+.addedmanga .mangatitle {
+    color: #13405b;
+}
+
+.ad2 td {
+    text-align: center;
+}
+
+.message .controls {
+    margin-right: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 125px;
+}
+
+.manga_photos {
+    margin-top: -5px;
+}
+
+.manga_photo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #EEE;
+    padding: 10px 20px;
+    margin: -20px auto;
+}
+
+.manga_photo .controls {
+    width: 300px;
+}
+
+.stat.manganbr {
+    background: #13d23c;
+    color: #fff;
+}
+
+.blocheader.manga {
+    border: 1.5px solid #13d23c;
+}
+
+.blocheader.manga h3 {
+    background-color: #13d23c;
+}
+
+.stat.chapternbr {
+    background: #2196f3d4;
+    color: #fff;
+}
+
+.blocheader.chapter {
+    border: 1.5px solid #2196f3d4;
+}
+
+.blocheader.chapter h3 {
+    background-color: #2196f3d4;
+}
+
+.stat.usernbr {
+    background: #EF5350;
+    color: #fff;
+}
+
+.blocheader.user {
+    border: 1.5px solid #EF5350;
+}
+
+.blocheader.user h3 {
+    background-color: #EF5350;
+}
+
+.stat.msgnbr {
+    background: #910ba9a8;
+    color: #fff;
+}
+
+.blocheader.msg {
+    border: 1.5px solid #910ba9a8;
+}
+
+.blocheader.msg h3 {
+    background-color: #910ba9a8;
+}
+
+.stat {
+    background: #9c9999;
+    color: #ffff;
+}
+
+.controls.msg {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.home .controls a {
+    font-size: 16px;
+}
+
+.mosta5 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 21px;
+    margin-left: 13px;
+}
+
+.ad_home ul li {
+    padding: 0 10px;
+}
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background: #eee;
+    padding: 10px;
+}
+a.sitmap {
+    background: #9ea015;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.sitmaptxt {
+    padding: 20px;
+    color: gray;
+  }
+  .sitmaptxt h1 {
+    color: #13405b;
+    text-align: center;
+    margin: 0px 0 30px;
+  }
+  .sitmaptxt p {
+    font-size: 16px;
+    line-height: 34px;
+  }
+  .sitmaptxt a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #37a84e;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+  }
+  .sitmapsucc {
+    display: block;
+    text-align: center;
+    min-height: 150;
+    color: green;
+    font-size: 18px;
+    padding: 20px 0;
+  }
+  #compteur {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    border: 2px solid #eee;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+@media screen and (max-width: 576px) {
+    * {
+        font-size: 12px;
+    }
+}
+
